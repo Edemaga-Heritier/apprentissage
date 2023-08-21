@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="/index.html" method="post">
+
+    <p>cree un mot password</p>
+    <label for="user-pw"> password</label>
+    <input type="password" name="user-pw" value="pioche" id="user-pw">
+
+    <p>ajouter de nombre</p>
+   <input type="number" name="rock" step="1" id="plan" >
+   <label for="plan"></label>
+
+   <p>ajouter de volume</p>
+   <input type="range" id="volume" name="volume" min="0" max="100" step="1">
+   <label for="volume"> volume</label>
+
+<p>ajouter de case</p>
+   <input type="checkbox" name="paul" id="pioche" value="pierre">
+   <label for="pioche">la case</label>
+
+<p>what is sum of 1+1</p>
+   <input type="radio" id="two" name="answer" value="2">
+   <label for="two">2</label>
+
+   <input type="radio" id="douze" name="answer" value="12">
+   <label for="douze">12</label>
+ </form>
+<p>une menu deroulante</p>
+<form action="">
+<label for="lunch">what's for lunch</label>
+<select name="lunch" id="lunch">
+    <option value="pizza">pizza</option>
+    <option value="mango">mango</option>
+    <option value="avocat">avocat</option>
+</select>
+
+<p>la liste de donnée</p>
+<input type="text" list="cities" id="city" name="city">
+<label for="city">ideal city to visit</label>
+<datalist id="cities">
+    <option value="kinshasa"></option>
+    <option value="kisangani"></option>
+    <option value="kikwit"></option>
+    <option value="kongo-centrale"></option>
+</datalist>
+
+<p>champ de texte</p>
+<label for="blog">New Blog post</label>
+<br>
+<textarea name="blog" id="blog" cols="30" rows="10"></textarea>
+
+    </form>
+
+
+</body>
+</html>
